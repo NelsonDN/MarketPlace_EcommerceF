@@ -1,0 +1,29 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MarketFaith.ViewModels"
+             x:Class="MarketFaith.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="BarBackgroundColor" Value="#4e89a3" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            <Style TargetType="Button" x:Key="boutonLabStyle" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="#4e89a3" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+            <local:PanierViewModel x:Key="PanierViewModel" />
+        </ResourceDictionary>
+        
+        
+    </Application.Resources>
+</Application>

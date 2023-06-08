@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.LoginPage"
+             BackgroundColor="AntiqueWhite"
+             Title="Login ">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Source="back2.jpg"
+               Aspect="AspectFill"/>
+
+        <StackLayout VerticalOptions="Center" Padding="40">
+            <Image Source="logo2.png"
+               HorizontalOptions="Center"
+               HeightRequest="200"
+               Margin="0,0,0,0" />
+            <Entry Placeholder="Adresse e-mail ou numéro de téléphone"
+               x:Name="UsernameEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,20"
+               HeightRequest="50" />
+            <Entry Placeholder="Mot de passe"
+               x:Name="PasswordEntry"
+               IsPassword="True"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,20"
+               HeightRequest="50" />
+            <Button Text="Connexion"
+                Clicked="OnLoginButtonClicked"
+                BackgroundColor="#0078D7"
+                TextColor="White"
+                Margin="0,0,0,5"
+                HeightRequest="50"
+                CornerRadius="5" />
+            <Label Text="Mot de passe oublié ?"
+               HorizontalOptions="Center"
+               FontSize="14"
+               TextColor="#0078D7"
+               Margin="0,0,0,5"
+               TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnForgotPasswordButtonClicked" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="Inscrivez-vous ici"
+               HorizontalOptions="Center"
+               FontSize="14"
+               TextColor="#4e89a9"
+               Margin="0,0,0,0"
+               TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSignUpLabelTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+
+    </Grid>
+   
+</ContentPage>

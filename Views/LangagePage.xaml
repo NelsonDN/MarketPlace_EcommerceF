@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.LangagePage"
+             BackgroundColor="#4e89a9"
+             Title="LangagePage">
+    <VerticalStackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Spacing="0">
+
+        <StackLayout Orientation="Horizontal" 
+                     Spacing="0"   
+                     BackgroundColor="White">
+            <Image Source="francais.jpg"
+                   HeightRequest="50"
+                   WidthRequest="40" 
+                   Aspect="Fill"/>
+            <Button Text="Français" 
+                    BackgroundColor="White"
+                    TextColor="#1f0400"
+                    FontAttributes="Bold"
+                    Clicked="FrBtnClicked"
+                    HeightRequest="50"
+                    WidthRequest="100"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     Margin="0, 15"
+                     BackgroundColor="White">
+            <Image Source="english.png"
+                   HeightRequest="50"
+                   WidthRequest="40"
+                   Aspect="Fill"
+                   HorizontalOptions="FillAndExpand"/>
+            <Button Text="English" 
+                    TextColor="#1f0400"
+                    BackgroundColor="White"
+                    FontAttributes="Bold"
+                    Clicked="EnBtnClicked"
+                    HeightRequest="50"
+                    WidthRequest="100"/>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

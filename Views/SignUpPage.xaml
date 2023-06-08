@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.SignUpPage"
+             Title="Sign Up">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Source="back2.jpg"
+               Aspect="AspectFill"/>
+
+        <StackLayout Margin="20">
+            <Label Text="Inscription"
+               FontSize="24"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20" />
+            <Entry Placeholder="Nom"
+               x:Name="FirstNameEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Entry Placeholder="Prénom"
+               x:Name="LastNameEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Entry Placeholder="Numéro de téléphone"
+               x:Name="PhoneNumberEntry"
+               Keyboard="Telephone"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Entry Placeholder="Localisation"
+               x:Name="LocationEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Entry Placeholder="Mot de passe"
+               x:Name="PasswordEntry"
+               IsPassword="True"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Entry Placeholder="Confirmation Mot de passe"
+               x:Name="ConfirmationPasswordEntry"
+               IsPassword="True"
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0,0,0,10" />
+            <Button Text="S'inscrire"
+                Clicked="OnRegisterButtonClicked"
+                BackgroundColor="#0078D4"
+                TextColor="White"
+                Margin="0,0,0,10" />
+        </StackLayout>
+    </Grid>
+    
+    
+</ContentPage>

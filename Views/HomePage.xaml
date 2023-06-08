@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.HomePage"
+             BackgroundColor="#4e89a9"
+             Title="Home">
+    <FlyoutPage.Flyout>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="Menu">
+                    <StackLayout>
+                        <Button Text="LoginPage" Clicked="OnLoginPageClicked"/>
+                        <Button Text="SignUpPage" Clicked="OnSignUpPageClicked"/>
+                    </StackLayout>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="Accueil">
+                    <!-- Contenu de la page d'accueil -->
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

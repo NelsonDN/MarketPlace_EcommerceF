@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.ProductDetailPage"
+             BackgroundColor="White"
+             Title="Détails produit">
+    <StackLayout>
+        <Label Text="{Binding Name}" HorizontalOptions="Center" TextColor="Black" FontSize="24" Margin="10" />
+        <Image Source="{Binding ImagePath}" HeightRequest="200" WidthRequest="200" Aspect="AspectFill" />
+        <Label Text="{Binding Price, StringFormat='Prix : {0:C}'}" TextColor="Black" HorizontalOptions="Center" FontSize="20" Margin="10" />
+        <Button Text="Ajouter au panier" HorizontalOptions="Center" Margin="10" Clicked="AddToCart_Clicked" />
+    </StackLayout>
+</ContentPage>
