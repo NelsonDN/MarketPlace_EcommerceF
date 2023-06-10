@@ -1,19 +1,21 @@
 using MarketFaith.Models;
 using MarketFaith.Views;
+using MarketFaith.Services;
 using Newtonsoft.Json;
-using System.Security.Cryptography.X509Certificates;
+using System.Collections.ObjectModel;
 
 namespace MarketFaith.Views;
 
 public partial class StorePage : ContentPage
 {
-
+    private ObservableCollection<CartItem> cartItems;
     private const string ApiBaseUrl = "http://127.0.0.1:8000/api/categories";
     List<Categorie> categories;
 
     public StorePage(Models.Enseigne selectedEnseigne)
     {
         InitializeComponent();
+        cartItems = new ObservableCollection<CartItem>();
 
         // Afficher le nom de l'enseigne sélectionnée
         StoreName.Text = selectedEnseigne.name;
@@ -37,6 +39,28 @@ public partial class StorePage : ContentPage
         // Désélectionner l'élément de la CollectionView
         StoreCollectionView.SelectedItem = null;
     }
+
+
+
+    //protected override bool OnBackButtonPressed()
+    //{
+    //    base.OnDisappearing();
+    //    // Vérifiez si le panier contient des produits
+    //    if (cartItems.Count > 0)
+    //    {
+    //        var answer = DisplayAlert("Attention", "Si vous quittez cette page, votre panier sera vidé. Êtes-vous sûr de vouloir continuer ?", "Oui", "Non");
+
+    //        if (answer)
+    //        {
+    //            CartManager.ClearCart();
+    //            this.Navigation.PopAsync();
+    //        }
+    //        this.Navigation.PopAsync();
+
+    //    }
+    //    return true;
+
+    //}
 
 
     public async void DownloadData(Enseigne selectedEnseigne)

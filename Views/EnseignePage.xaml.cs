@@ -106,6 +106,7 @@ public partial class EnseignePage : ContentPage
         StoreListView.SelectedItem = null;
     }
 
+
     private async void LogoutButton_Clicked(object sender, EventArgs e)
     {
         // Créez un objet HttpClient pour effectuer la requête HTTP

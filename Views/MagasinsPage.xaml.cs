@@ -3,7 +3,6 @@ using System.ComponentModel;
 using System.Net;
 using MarketFaith.Models;
 
-
 namespace MarketFaith.Views;
 
 public partial class MagasinsPage : ContentPage
@@ -15,17 +14,14 @@ public partial class MagasinsPage : ContentPage
     {
         InitializeComponent();
 
-        maListeView.RefreshCommand = new Command((obj) =>
-        {
-            DownloadData();
-        });
+
 
         maListeView.IsVisible = false;
         waitLayout.IsVisible = true;
 
 
         // Appel a ma fonction de chargement de données
-        DownloadData();
+        //DownloadData();
 
 
         /*
@@ -46,6 +42,53 @@ public partial class MagasinsPage : ContentPage
 			}
 		};
     }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+
+        int userId = Preferences.Get("UserId", 0);
+
+        if (userId != 0)
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    string apiUrl = $"{ApiBaseUrl}";
+
+                    HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string json = await response.Content.ReadAsStringAsync();
+                        boutiques = JsonConvert.DeserializeObject<List<Boutique>>(json);
+
+                        // Faites quelque chose avec le produit récupéré, par exemple, l'afficher dans les contrôles de la page
+
+                        maListeView.ItemsSource = boutiques;
+
+                        maListeView.IsVisible = true;
+                        waitLayout.IsVisible = false;
+                        maListeView.IsRefreshing = false;
+
+                    }
+                    else
+                    {
+                        // Gérez l'erreur de la requête HTTP, par exemple, affichez un message d'erreur approprié
+                        Console.WriteLine($"Erreur lors de la récupération des enseignes. Code de statut : {response.StatusCode}");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Gérez les exceptions, par exemple, affichez un message d'erreur approprié
+                Console.WriteLine($"Erreur lors de la récupération des enseignes : {ex.Message}");
+            }
+        }
+    }
+
+
 
     public async void DownloadData()
     {

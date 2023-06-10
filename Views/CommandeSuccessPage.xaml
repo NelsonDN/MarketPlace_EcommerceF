@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketFaith.Views.CommandeSuccessPage"
+             BackgroundColor="#4e89a9"
+             Title="CommandeSuccessPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Commande reussie!"
+            FontSize="27"
+            FontAttributes="Bold"
+            TextColor="White"
+            Margin="0,30"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Valider"
+                TextColor="#4e89a9"
+                Margin="15,400,15,0"
+                BackgroundColor="White"
+                Clicked="ValiderButton"
+                FontSize="20" />
+
+    </VerticalStackLayout>
+</ContentPage>

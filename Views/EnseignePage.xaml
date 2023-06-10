@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MarketFaith.Views.EnseignePage"
              BackgroundColor="#f4f8ff"
-             Title="Supermarché">
+             Title="Magasins">
     
     <ListView x:Name="StoreListView"
               Margin="20"

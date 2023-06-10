@@ -71,7 +71,7 @@ public partial class LoginPage : ContentPage
                 };
 
                 // Rediriger vers la page d'accueil
-                await Navigation.PushAsync(new TabsPage());
+                await this.Navigation.PushAsync(new TabsPage());
             }
             else
             {

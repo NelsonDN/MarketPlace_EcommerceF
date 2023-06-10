@@ -48,11 +48,11 @@ public partial class TabsPage : TabbedPage
 
         if (userId == 0 || userName == "" || userEmail == "" || userToken == "")
         {
-            Navigation.PushAsync(new LoginPage());
+            this.Navigation.PushAsync(new LoginPage());
         }
         else
         {
-            Navigation.PushAsync(new TabsPage());
+            var a = 0;
         }
     }
 

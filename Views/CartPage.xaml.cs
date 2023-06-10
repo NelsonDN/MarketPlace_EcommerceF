@@ -88,60 +88,55 @@ public partial class CartPage : ContentPage
 
     private async void PlaceOrder_Clicked(object sender, EventArgs e)
     {
-        await DisplayAlert("Commande", "Votre commande a été passée avec succès !", "OK");
+        int userid = Preferences.Get("UserId", 0);
 
-        /*
-         * 
-         * // Ajoutez ici la logique pour passer la commande à partir du panier  PUBLIC STATIC ASYNC Task<bool> PlaceOrder()
-        // Récupérer les produits du panier
-        var cartItems = CartManager.GetCartItems();
+
+        // Récupérer les noms des produits et les quantités
+        int[] productids = cartItems.Select(item => item.Product.id).ToArray();
+        int[] productquantities = cartItems.Select(item => item.Quantity).ToArray();
 
         // Créer un objet pour la commande
         var order = new Order
         {
-            Items = cartItems,
+            userid = userid,
+            productids = productids,
+            productquantities = productquantities,
             TotalAmount = CartManager.GetTotalAmount()
         };
 
         // Convertir la commande en JSON
         var jsonOrder = JsonSerializer.Serialize(order);
 
-        // Envoyer la commande à l'API
-        using (var client = new HttpClient())
+        try
         {
-            var response = await client.PostAsync("https://votre-api.com/commandes", new StringContent(jsonOrder, System.Text.Encoding.UTF8, "application/json"));
 
-            if (response.IsSuccessStatusCode)
+            // Envoyer la commande à l'API
+                using (var client = new HttpClient())
             {
-                // La commande a été envoyée avec succès
-                CartManager.ClearCart();
-                return true;
-            }
-            else
-            {
-                // Erreur lors de l'envoi de la commande
-                return false;
-            }
-        }*/
+                var response = await client.PostAsync("http://127.0.0.1:8000/api/commande", new StringContent(jsonOrder, System.Text.Encoding.UTF8, "application/json"));
 
+                if (response.IsSuccessStatusCode)
+                {
+                    // La commande a été envoyée avec succès
+                    CartManager.ClearCart();
+                    
+                    await DisplayAlert("Commande", "Votre commande a été passée avec succès !", "OK");
+
+                    await this.Navigation.PushAsync(new CommandeSuccessPage());
+                }
+                else
+                {
+                    // Erreur lors de l'envoi de la commande
+                    await DisplayAlert("Erreur", "Erreur lors de l'envoi de la commande !", "OK");
+
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Gérez les exceptions, par exemple, affichez un message d'erreur approprié
+            Console.WriteLine($"Erreur lors de la récupération des enseignes : {ex.Message}");
+        }
     }
 
-    //private async void GoBack_Clicked(object sender, EventArgs e)
-    //{
-    //    // Vérifiez si le panier contient des produits
-    //    if (cartItems.Count > 0)
-    //    {
-    //        var answer = await DisplayAlert("Attention", "Si vous quittez cette page, votre panier sera vidé. Êtes-vous sûr de vouloir continuer ?", "Oui", "Non");
-
-    //        if (answer)
-    //        {
-    //            CartManager.ClearCart();
-    //            await Navigation.PopAsync();
-    //        }
-    //    }
-    //    else
-    //    {
-    //        await Navigation.PopAsync();
-    //    }
-    //}
 }

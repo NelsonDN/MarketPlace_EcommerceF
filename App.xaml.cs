@@ -18,10 +18,10 @@ public partial class App : Application
 
 
         string valeur = Preferences.Get("Langue", "");
-        Preferences.Set("UserId", 0);
-        Preferences.Set("UserName", "");
-        Preferences.Set("UserEmail", "");
-        Preferences.Set("UserToken", "");
+        //Preferences.Set("UserId", 0);
+        //Preferences.Set("UserName", "");
+        //Preferences.Set("UserEmail", "");
+        //Preferences.Set("UserToken", "");
         // Récupérer les informations de l'utilisateur à partir des préférences de l'application
         int userId = Preferences.Get("UserId", 0); // Utilisez une valeur par défaut appropriée
         string userName = Preferences.Get("UserName", string.Empty);
@@ -46,7 +46,7 @@ public partial class App : Application
             MainPage = new NavigationPage(new TabsPage());
         }
 
-        // MainPage = new NavigationPage(new MagasinsPage());
+        //MainPage = new NavigationPage(new MagasinsPage());
 
     }
 }

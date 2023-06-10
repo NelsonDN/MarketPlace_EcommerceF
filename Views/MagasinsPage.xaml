@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MarketFaith.Views.MagasinsPage"
              BackgroundColor="#f8faff"
-             Title="Magasins">
+             Title="Supermarché">
 
 
     <Grid>
@@ -24,6 +24,7 @@
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
+                            
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="90" />
                                 <ColumnDefinition Width="*" />

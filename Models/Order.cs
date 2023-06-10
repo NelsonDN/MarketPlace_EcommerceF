@@ -8,7 +8,9 @@ namespace MarketFaith.Models
 {
     public class Order
     {
-        public List<CartItem> Items { get; set; }
+        public int userid { get; set; }
+        public int[] productids { get; set; }
+        public int[] productquantities { get; set; }
         public decimal TotalAmount { get; set; }
     }
 }
