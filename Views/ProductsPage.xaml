@@ -30,11 +30,6 @@
                 <ScrollView Orientation="Horizontal">
                     <StackLayout x:Name="section2Layout"  BackgroundColor="#f8faff" Orientation="Horizontal" Padding="10" Spacing="10" />
                 </ScrollView>
-
-                <Label Text="Section 3" Margin="10,19,0,0" TextColor="#4e69a6" HorizontalOptions="Start" FontSize="20" />
-                <ScrollView Orientation="Horizontal">
-                    <StackLayout x:Name="section3Layout"  BackgroundColor="#f8faff" Orientation="Horizontal" Padding="10" Spacing="10" />
-                </ScrollView>
             </StackLayout>
         </ScrollView>
     </StackLayout>

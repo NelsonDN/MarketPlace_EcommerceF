@@ -4,6 +4,8 @@ using System.Xml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 using MarketFaith.Services;
+using System.Security.Cryptography.X509Certificates;
+using Newtonsoft.Json;
 
 namespace MarketFaith.Views;
 
@@ -11,12 +13,16 @@ namespace MarketFaith.Views;
 public partial class ProductsPage : ContentPage
 {
     private decimal cartTotal = 0;
+    private const string ApiBaseUrl = "http://127.0.0.1:8000/api/produits";
+    List<Product> products;
 
-    public ProductsPage()
+    public ProductsPage(Categorie selectedCategorie)
     {
         InitializeComponent();
 
-        LoadProducts();
+
+        // Obtenir les produits de la categorie sélectionnée 
+        LoadProducts(selectedCategorie);
     }
 
     protected override void OnAppearing()
@@ -31,65 +37,71 @@ public partial class ProductsPage : ContentPage
         UpdateCartTotal();
     }
 
-    private void LoadProducts()
+    public async void LoadProducts(Categorie selectedCategorie)
     {
-        // Exemple de produits
-        var product1 = new Product(1, "Produit 1", "voiture.png", 10.99m);
-        var product2 = new Product(2, "Produit 2", "avion.png", 19.99m);
-        var product3 = new Product(3, "Produit 2", "voiture.png", 19.99m);
-        var product4 = new Product(4, "Produit 2", "avion.png", 19.99m);
-        var product5 = new Product(5, "Produit 2", "voiture.png", 19.99m);
-        var product6 = new Product(6, "Produit 2", "avion.png", 19.99m);
+        try
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string apiUrl = $"{ApiBaseUrl}/{selectedCategorie.id}";
 
-        // Section 1
-        var productView1 = CreateProductView(product1);
-        var productView2 = CreateProductView(product2);
-        var productView3 = CreateProductView(product3);
-        var productView4 = CreateProductView(product4);
-        var productView5 = CreateProductView(product5);
-        var productView6 = CreateProductView(product6);
-        var productView7 = CreateProductView(product6);
-        var productView8 = CreateProductView(product6);
-        var productView9 = CreateProductView(product6);
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
 
-        section1Layout.Children.Add(productView1);
-        section1Layout.Children.Add(productView2);
-        section1Layout.Children.Add(productView3);
-        section1Layout.Children.Add(productView4);
-        section1Layout.Children.Add(productView5);
-        section1Layout.Children.Add(productView7);
-        section1Layout.Children.Add(productView8);
-        section1Layout.Children.Add(productView9);
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+                    products = JsonConvert.DeserializeObject<List<Product>>(json);
 
-        // Section 2
-        var productView10 = CreateProductView(product1);
-        var productView11 = CreateProductView(product2);
-        var productView12 = CreateProductView(product2);
-        var productView13 = CreateProductView(product2);
+                    // Faites quelque chose avec le produit récupéré, par exemple, l'afficher dans les contrôles de la page
 
-        section2Layout.Children.Add(productView10);
-        section2Layout.Children.Add(productView6);
-        section2Layout.Children.Add(productView11);
-        section2Layout.Children.Add(productView12);
-        section2Layout.Children.Add(productView13);
+                    // Assigner les magasins à la source de données du CollectionView
+                    int count1 = 0;
+                    foreach(Product product in products)
+                    {
+                        if (count1>=5)
+                        {
+                            break;
+                        }
+                        var productView1 = CreateProductView(product);
+                        // Section 1
+                        section1Layout.Children.Add(productView1);
+                        count1++;
+                    }
 
-        var productView21 = CreateProductView(product1);
-        var productView22 = CreateProductView(product2);
-        var productView23 = CreateProductView(product2);
-        var productView24 = CreateProductView(product2);
+                    int count2 = 0;
+                    foreach (Product product in products.Skip(5))
+                    {
+                        if (count2 >= 5)
+                        {
+                            break;
+                        }
+                        var productView2 = CreateProductView(product);
+                        // Section 2
+                        section2Layout.Children.Add(productView2);
+                        count2++;
+                    }
 
-        // Section  3
-        section3Layout.Children.Add(productView21);
-        section3Layout.Children.Add(productView22);
-        section3Layout.Children.Add(productView23);
-        section3Layout.Children.Add(productView24);
+                }
+                else
+                {
+                    // Gérez l'erreur de la requête HTTP, par exemple, affichez un message d'erreur approprié
+                    Console.WriteLine($"Erreur lors de la récupération des enseignes. Code de statut : {response.StatusCode}");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Gérez les exceptions, par exemple, affichez un message d'erreur approprié
+            Console.WriteLine($"Erreur lors de la récupération des enseignes : {ex.Message}");
+        }
+
     }
 
     private View CreateProductView(Product product)
     {
         var image = new Image
         {
-            Source = product.ImagePath,
+            Source = product.avatar,
             HeightRequest = 100,
             WidthRequest = 100,
             Aspect = Aspect.AspectFit
@@ -98,16 +110,16 @@ public partial class ProductsPage : ContentPage
         var nameLabel = new Label
         {
             Margin = new Thickness(10, 30, 0, 0),
-            Text = product.Name,
+            Text = product.name,
             HorizontalTextAlignment = TextAlignment.Start,
             FontAttributes = FontAttributes.Bold,
             TextColor = Color.FromArgb("#4e69a6")
         };
 
-        var priceLabel = new Label
+        var prixLabel = new Label
         {
             Margin = new Thickness(10, 14, 0, 0),
-            Text = $"{product.Price:C}",
+            Text = $"{product.prix:C}",
             HorizontalTextAlignment = TextAlignment.Start,
             FontAttributes= FontAttributes.Bold,
             TextColor = Colors.IndianRed,
@@ -133,7 +145,7 @@ public partial class ProductsPage : ContentPage
 
         image.GestureRecognizers.Add(productTapGestureRecognizer);
         nameLabel.GestureRecognizers.Add(productTapGestureRecognizer);
-        priceLabel.GestureRecognizers.Add(productTapGestureRecognizer);
+        prixLabel.GestureRecognizers.Add(productTapGestureRecognizer);
 
 
         var productLayout = new StackLayout
@@ -141,15 +153,15 @@ public partial class ProductsPage : ContentPage
             Orientation = StackOrientation.Vertical,
             HorizontalOptions = LayoutOptions.Center,
             BackgroundColor = Colors.White,
-            HeightRequest = 245,
-            WidthRequest = 160,
+            HeightRequest = 265,
+            WidthRequest = 170,
             Margin = new Thickness(0, 15, 5, 0),
             Children =
             {
                 addButton,
                 image,
                 nameLabel,
-                priceLabel,
+                prixLabel,
             }
         };
 
@@ -162,7 +174,7 @@ public partial class ProductsPage : ContentPage
         CartManager.AddToCart(product);
         // Ajoutez ici la logique pour ajouter le produit au panier
 
-        cartTotal += product.Price;
+        cartTotal += product.prix;
 
         UpdateCartTotal();
     }

@@ -4,6 +4,7 @@
              x:Class="MarketFaith.Views.EnseignePage"
              BackgroundColor="#f4f8ff"
              Title="Supermarché">
+    
     <ListView x:Name="StoreListView"
               Margin="20"
               SeparatorVisibility="None"
@@ -20,7 +21,7 @@
                         <StackLayout Orientation="Horizontal"
                                      Grid.Row="0"
                                      Margin="0,0,0,10">
-                            <Image Source="{Binding ImageUrl}"
+                            <Image Source="{Binding avatar}"
                                 WidthRequest="70"
                                 HeightRequest="70"
                                 Aspect="AspectFit"
@@ -28,11 +29,11 @@
                             <StackLayout VerticalOptions="Center"
                                         Orientation="Vertical"
                                         BackgroundColor="White">
-                                <Label Text="{Binding Name}"
+                                <Label Text="{Binding name}"
                                     FontSize="25"
                                     TextColor="Black"
                                     FontAttributes="Bold" />
-                                <Label Text="{Binding OpenHours}"
+                                <Label Text="{Binding description}"
                                     FontSize="14"
                                     TextColor="Green" />
                             </StackLayout>
@@ -47,7 +48,7 @@
                                 HeightRequest="50"
                                 Margin="10,0,0,0"    
                                 TextColor="SlateGray"/>
-                            <Label Text="5,00 frs"
+                            <Label Text="{Binding prix_livraison}"
                                 FontSize="15"
                                 HorizontalTextAlignment="Center"
                                 TextColor="#4e89a9"
@@ -63,7 +64,7 @@
                                     
                                 Margin="0,0,0,0"
                                 TextColor="SlateGray" />
-                            <Label Text="30,00 frs"
+                            <Label Text="{Binding min_montant}"
                                 FontSize="15"
                                 HorizontalTextAlignment="Center"
                                 TextColor="#4e89a9"
@@ -78,7 +79,7 @@
                                         HeightRequest="50"
                                         Margin="0,0,0,0"
                                         TextColor="SlateGray" />
-                            <Label Text="120 min"
+                            <Label Text="{Binding heure_de_livraison}"
                                         FontSize="15"
                                         HorizontalTextAlignment="Center"
                                         TextColor="#4e89a9"

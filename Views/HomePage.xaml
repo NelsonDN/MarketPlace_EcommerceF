@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MarketFaith.Views.HomePage"
-             BackgroundColor="#4e89a9"
-             Title="Home">
-    <FlyoutPage.Flyout>
-        <NavigationPage>
-            <x:Arguments>
-                <ContentPage Title="Menu">
-                    <StackLayout>
-                        <Button Text="LoginPage" Clicked="OnLoginPageClicked"/>
-                        <Button Text="SignUpPage" Clicked="OnSignUpPageClicked"/>
-                    </StackLayout>
-                </ContentPage>
-            </x:Arguments>
-        </NavigationPage>
-    </FlyoutPage.Flyout>
-    <FlyoutPage.Detail>
-        <NavigationPage>
-            <x:Arguments>
-                <ContentPage Title="Accueil">
-                    <!-- Contenu de la page d'accueil -->
-                </ContentPage>
-            </x:Arguments>
-        </NavigationPage>
-    </FlyoutPage.Detail>
-</FlyoutPage>
+             BackgroundColor="#f8faff"
+             Title="Profile">
+    <StackLayout Padding="20">
+
+        <Label Text="Informations Utilisateur" TextColor="Black" FontSize="24" HorizontalOptions="Center" Margin="0,20" />
+
+        <Label Text="Nom:" TextColor="#4e69a6" FontAttributes="Bold" />
+        <Label TextColor="Black"  Text="{Binding name}" />
+
+        <Label Text="Email:" TextColor="#4e69a6" FontAttributes="Bold" />
+        <Label TextColor="Black"  Text="{Binding email}" />
+
+        <!-- Autres propriétés à afficher -->
+    
+        <Button Text="Déconnexion" Clicked="LogoutButton_Clicked" TextColor="White" Margin="15,200,0,15" FontSize="20" BackgroundColor="#4e69a6" VerticalOptions="End" />
+    </StackLayout>
+</ContentPage>

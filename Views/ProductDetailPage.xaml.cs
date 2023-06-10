@@ -1,6 +1,13 @@
 using MarketFaith.Models;
 using MarketFaith.Views;
 
+using System.Xml;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
+using MarketFaith.Services;
+using System.Security.Cryptography.X509Certificates;
+using Newtonsoft.Json;
+
 namespace MarketFaith.Views;
 
 public partial class ProductDetailPage : ContentPage
@@ -16,9 +23,4 @@ public partial class ProductDetailPage : ContentPage
         BindingContext = product;
     }
 
-    private void AddToCart_Clicked(object sender, EventArgs e)
-    {
-        var product = (Product)BindingContext;
-        // Ajoutez ici la logique pour ajouter le produit au panier
-    }
 }

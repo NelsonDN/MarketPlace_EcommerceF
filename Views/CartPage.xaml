@@ -17,12 +17,12 @@
                                       RowSpacing="10"
                                       BackgroundColor="White"
                                       ColumnDefinitions="2*, 2*, 2*">
-                                    <Image Source="{Binding Product.ImagePath}" Aspect="AspectFit" Margin="10,0,0,0" HeightRequest="85" Grid.Row="0"/>
+                                    <Image Source="{Binding Product.avatar}" Aspect="AspectFit" Margin="10,0,0,0" HeightRequest="85" Grid.Row="0"/>
 
-                                    <Label Text="{Binding Product.Name}" HorizontalTextAlignment="Center" Margin="15,0,15,0" Grid.Column="1" Grid.Row="0" TextColor="#4e69a6" FontSize="Title" />
+                                    <Label Text="{Binding Product.name}" HorizontalTextAlignment="Center" Margin="15,0,15,0" Grid.Column="1" Grid.Row="0" TextColor="#4e69a6" FontSize="Title" />
 
                                     <StackLayout Orientation="Vertical" HorizontalOptions="End" BackgroundColor="White" Grid.Column="2" Grid.Row="0" Spacing="5">
-                                        <Label Text="{Binding Product.Price, StringFormat='{0:C}'}" Margin="15,0,0,0" TextColor="DarkRed" FontSize="Subtitle" />
+                                        <Label Text="{Binding Product.prix, StringFormat='{0:C}'}" Margin="15,0,0,0" TextColor="DarkRed" FontSize="Subtitle" />
                                         <Frame BorderColor="#f4f8ff" BackgroundColor="#f4f8ff" Margin="0,20,0,0" Padding="2">
                                             <StackLayout Orientation="Horizontal" Spacing="10" BackgroundColor="White" VerticalOptions="Center">
                                                 <Button Text="-" TextColor="#4e69a6" FontSize="23" Clicked="DecreaseQuantity_Clicked" CommandParameter="{Binding .}" />

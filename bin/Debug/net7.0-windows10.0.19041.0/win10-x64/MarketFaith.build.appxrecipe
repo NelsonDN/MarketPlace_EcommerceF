@@ -928,6 +928,36 @@
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fruit.scale-100.png">
       <PackagePath>fruit.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
+      <PackagePath>info.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-125.png">
+      <PackagePath>info.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-150.png">
+      <PackagePath>info.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-200.png">
+      <PackagePath>info.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-400.png">
+      <PackagePath>info.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\legumes.scale-100.png">
       <PackagePath>legumes.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -942,6 +972,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-100.png">
       <PackagePath>logo2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
+      <PackagePath>logout.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mahima.scale-100.png">
       <PackagePath>mahima.scale-100.png</PackagePath>
@@ -966,6 +999,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\santalucia.scale-100.png">
       <PackagePath>santalucia.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png">
+      <PackagePath>setting.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-125.png">
+      <PackagePath>setting.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-150.png">
+      <PackagePath>setting.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-200.png">
+      <PackagePath>setting.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-400.png">
+      <PackagePath>setting.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\voiture.scale-100.png">
       <PackagePath>voiture.scale-100.png</PackagePath>

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MarketFaith.Models;
 
 namespace MarketFaith.Models
 {
-    public class Categorie
+    public class LoginResponse
     {
-        public string id { get; set; }
-        public string name { get; set; }
-        public string avatar { get; set; }
+        public User User { get; set; }
+        public TokenResponse Token { get; set; }
     }
 }

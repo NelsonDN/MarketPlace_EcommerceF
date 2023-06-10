@@ -13,11 +13,13 @@ public partial class LangagePage : ContentPage
 
     private void EnBtnClicked(object sender, EventArgs e)
     {
-        this.Navigation.PushAsync(new CategoriesPage());
+        Preferences.Set("Langue", "en");
+        this.Navigation.PushAsync(new LoginPage());
     }
 
     private void FrBtnClicked(object sender, EventArgs e)
     {
+        Preferences.Set("Langue", "fr");
         this.Navigation.PushAsync(new LoginPage());
     }
 }

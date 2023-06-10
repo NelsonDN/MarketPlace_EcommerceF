@@ -58,7 +58,7 @@ public partial class TestLoginPage : ContentPage
         if (e.SelectedItem == null)
             return;
 
-        var selectedStore = (Store)e.SelectedItem;
+        var selectedStore = (Enseigne)e.SelectedItem;
 
         // Rediriger vers la page des magasins de l'enseigne sélectionnée
         Navigation.PushAsync(new StorePage(selectedStore));

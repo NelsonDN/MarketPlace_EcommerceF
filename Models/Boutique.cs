@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MarketFaith.Models
 {
-    public class Categorie
+    public class Boutique
     {
-        public string id { get; set; }
-        public string name { get; set; }
+        public int id {  get; set; }
+        public string name { get; set; }    
+        public string description { get; set; }
         public string avatar { get; set; }
     }
 }

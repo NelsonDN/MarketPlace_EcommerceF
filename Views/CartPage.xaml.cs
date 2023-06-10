@@ -80,7 +80,7 @@ public partial class CartPage : ContentPage
         cartTotal = 0;
         foreach (var item in cartItems)
         {
-            cartTotal += item.Product.Price * item.Quantity;
+            cartTotal += item.Product.prix * item.Quantity;
         }
 
         cartTotalLabel.Text = $"{cartTotal:C}";

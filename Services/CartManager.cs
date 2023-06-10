@@ -20,7 +20,7 @@ namespace MarketFaith.Services
         public static void AddToCart(Product product)
         {
             // Vérifier si le produit est déjà dans le panier
-            var existingItem = cartItems.Find(item => item.Product.Id == product.Id);
+            var existingItem = cartItems.Find(item => item.Product.id == product.id);
 
             if (existingItem != null)
             {
@@ -59,7 +59,7 @@ namespace MarketFaith.Services
             decimal totalAmount = 0;
             foreach (var item in cartItems)
             {
-                totalAmount += item.Product.Price * item.Quantity;
+                totalAmount += item.Product.prix * item.Quantity;
             }
             return totalAmount;
         }

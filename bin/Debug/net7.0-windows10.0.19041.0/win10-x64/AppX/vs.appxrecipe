@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-08T02:20:14.548</Modified>
+      <Modified>2023-06-10T14:39:49.218</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-08T01:38:10.632</Modified>
+      <Modified>2023-06-10T14:35:02.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MarketFaith.runtimeconfig.json">
       <PackagePath>MarketFaith.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MarketFaith.dll">
       <PackagePath>MarketFaith.dll</PackagePath>
-      <Modified>2023-06-08T02:20:11.723</Modified>
+      <Modified>2023-06-10T14:36:49.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MarketFaith.exe</PackagePath>
-      <Modified>2023-06-08T02:20:11.752</Modified>
+      <Modified>2023-06-10T14:36:49.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MarketFaith.deps.json">
       <PackagePath>MarketFaith.deps.json</PackagePath>
-      <Modified>2023-06-08T02:20:14.087</Modified>
+      <Modified>2023-06-10T14:39:49.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.81\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -976,187 +976,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-07T22:41:41.233</Modified>
+      <Modified>2023-06-09T09:30:06.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.341</Modified>
+      <Modified>2023-06-09T09:30:07.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.379</Modified>
+      <Modified>2023-06-09T09:30:07.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.417</Modified>
+      <Modified>2023-06-09T09:30:07.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.466</Modified>
+      <Modified>2023-06-09T09:30:07.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.625</Modified>
+      <Modified>2023-06-09T09:30:07.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.577</Modified>
+      <Modified>2023-06-09T09:30:06.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.606</Modified>
+      <Modified>2023-06-09T09:30:06.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.653</Modified>
+      <Modified>2023-06-09T09:30:06.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.622</Modified>
+      <Modified>2023-06-09T09:30:06.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.637</Modified>
+      <Modified>2023-06-09T09:30:06.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.421</Modified>
+      <Modified>2023-06-09T09:30:06.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.468</Modified>
+      <Modified>2023-06-09T09:30:06.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.555</Modified>
+      <Modified>2023-06-09T09:30:06.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.497</Modified>
+      <Modified>2023-06-09T09:30:06.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.521</Modified>
+      <Modified>2023-06-09T09:30:06.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.288</Modified>
+      <Modified>2023-06-09T09:30:06.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.305</Modified>
+      <Modified>2023-06-09T09:30:06.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.331</Modified>
+      <Modified>2023-06-09T09:30:06.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.340</Modified>
+      <Modified>2023-06-09T09:30:06.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.348</Modified>
+      <Modified>2023-06-09T09:30:06.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.365</Modified>
+      <Modified>2023-06-09T09:30:06.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.380</Modified>
+      <Modified>2023-06-09T09:30:06.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.411</Modified>
+      <Modified>2023-06-09T09:30:06.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.385</Modified>
+      <Modified>2023-06-09T09:30:06.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.396</Modified>
+      <Modified>2023-06-09T09:30:06.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.847</Modified>
+      <Modified>2023-06-09T09:30:06.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.872</Modified>
+      <Modified>2023-06-09T09:30:06.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.892</Modified>
+      <Modified>2023-06-09T09:30:06.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.922</Modified>
+      <Modified>2023-06-09T09:30:06.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.990</Modified>
+      <Modified>2023-06-09T09:30:06.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.742</Modified>
+      <Modified>2023-06-09T09:30:06.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.759</Modified>
+      <Modified>2023-06-09T09:30:06.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.773</Modified>
+      <Modified>2023-06-09T09:30:06.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.785</Modified>
+      <Modified>2023-06-09T09:30:06.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.816</Modified>
+      <Modified>2023-06-09T09:30:06.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.663</Modified>
+      <Modified>2023-06-09T09:30:06.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.677</Modified>
+      <Modified>2023-06-09T09:30:06.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.689</Modified>
+      <Modified>2023-06-09T09:30:06.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.710</Modified>
+      <Modified>2023-06-09T09:30:06.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.729</Modified>
+      <Modified>2023-06-09T09:30:06.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.010</Modified>
+      <Modified>2023-06-09T09:30:06.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.116</Modified>
+      <Modified>2023-06-09T09:30:06.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.175</Modified>
+      <Modified>2023-06-09T09:30:06.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.228</Modified>
+      <Modified>2023-06-09T09:30:07.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:42.321</Modified>
+      <Modified>2023-06-09T09:30:07.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\avion.scale-100.png">
       <PackagePath>avion.scale-100.png</PackagePath>
@@ -1200,23 +1200,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.215</Modified>
+      <Modified>2023-06-09T09:30:06.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.268</Modified>
+      <Modified>2023-06-09T09:30:06.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.318</Modified>
+      <Modified>2023-06-09T09:30:06.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.380</Modified>
+      <Modified>2023-06-09T09:30:06.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-07T22:41:41.575</Modified>
+      <Modified>2023-06-09T09:30:06.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dovv.scale-100.png">
       <PackagePath>dovv.scale-100.png</PackagePath>
@@ -1238,6 +1238,46 @@
       <PackagePath>fruit.scale-100.png</PackagePath>
       <Modified>2023-06-07T21:04:52.449</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+      <Modified>2023-06-09T08:15:13.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+      <Modified>2023-06-09T08:06:59.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
+      <PackagePath>info.scale-100.png</PackagePath>
+      <Modified>2023-06-09T08:15:05.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-125.png">
+      <PackagePath>info.scale-125.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-150.png">
+      <PackagePath>info.scale-150.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-200.png">
+      <PackagePath>info.scale-200.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-400.png">
+      <PackagePath>info.scale-400.png</PackagePath>
+      <Modified>2023-06-09T08:06:59.555</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\legumes.scale-100.png">
       <PackagePath>legumes.scale-100.png</PackagePath>
       <Modified>2023-06-07T21:04:38.805</Modified>
@@ -1257,6 +1297,10 @@
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-100.png">
       <PackagePath>logo2.scale-100.png</PackagePath>
       <Modified>2023-05-25T00:07:27.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
+      <PackagePath>logout.scale-100.png</PackagePath>
+      <Modified>2023-06-09T09:29:09.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mahima.scale-100.png">
       <PackagePath>mahima.scale-100.png</PackagePath>
@@ -1289,6 +1333,26 @@
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\santalucia.scale-100.png">
       <PackagePath>santalucia.scale-100.png</PackagePath>
       <Modified>2023-06-07T21:05:32.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png">
+      <PackagePath>setting.scale-100.png</PackagePath>
+      <Modified>2023-06-09T08:15:01.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-125.png">
+      <PackagePath>setting.scale-125.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-150.png">
+      <PackagePath>setting.scale-150.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-200.png">
+      <PackagePath>setting.scale-200.png</PackagePath>
+      <Modified>2023-06-09T08:06:58.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-400.png">
+      <PackagePath>setting.scale-400.png</PackagePath>
+      <Modified>2023-06-09T08:06:59.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martial\source\repos\MarketFaith\MarketFaith\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\voiture.scale-100.png">
       <PackagePath>voiture.scale-100.png</PackagePath>

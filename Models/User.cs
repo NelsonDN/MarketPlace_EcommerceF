@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace MarketFaith.Models
 {
-    public class Product
+    public class User
     {
         public int id { get; set; }
         public string name { get; set; }
-        public string avatar { get; set; }
-        public string description { get; set; }
-        public int prix { get; set; }
-        public string pesage { get; set; }
-
+        public string email { get; set; }
+        public string token { get; set; }
+        public string token_type { get; set; }
     }
 }

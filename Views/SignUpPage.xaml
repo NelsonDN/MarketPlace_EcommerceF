@@ -20,12 +20,12 @@
                HorizontalOptions="Center"
                Margin="0,0,0,20" />
             <Entry Placeholder="Nom"
-               x:Name="FirstNameEntry"
+               x:Name="NameEntry"
                BackgroundColor="White"
                TextColor="Black"
                Margin="0,0,0,10" />
-            <Entry Placeholder="Prénom"
-               x:Name="LastNameEntry"
+            <Entry Placeholder="Email"
+               x:Name="EmailEntry"
                BackgroundColor="White"
                TextColor="Black"
                Margin="0,0,0,10" />

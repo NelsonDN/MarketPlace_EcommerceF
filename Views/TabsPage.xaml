@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:views="clr-namespace:MarketFaith.Views"
+                 x:Class="MarketFaith.Views.TabsPage"
+                 xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+                 android:TabbedPage.ToolbarPlacement="Bottom"
+                 BarBackgroundColor="#508ca7"
+                 Title="Home">
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Logout" IconImageSource="logout.png" x:Name="cartButton" Clicked="LogoutButton_Clicked" />
+    </TabbedPage.ToolbarItems>
+
+    <views:MagasinsPage IconImageSource="home.png"/>
+    <views:HomePage IconImageSource="info.png" />
+    <views:LocalisationPage IconImageSource="setting.png" />
+
+</TabbedPage>
